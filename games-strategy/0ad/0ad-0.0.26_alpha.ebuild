@@ -24,7 +24,7 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/0ad/0ad"
 	S="${WORKDIR}/${P}"
 elif [[ ${PV} == *_pre* ]]; then
-	ZEROAD_GIT_REVISION="c7d07d3979f969b969211a5e5748fa775f6768a7"
+	ZEROAD_GIT_REVISION="0562a8c13982ee979f852004756dd3f16453acc7"
 	SRC_URI="https://github.com/0ad/0ad/archive/${ZEROAD_GIT_REVISION}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}/${PN}-${ZEROAD_GIT_REVISION}"
 else
